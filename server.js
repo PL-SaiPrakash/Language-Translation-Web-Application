@@ -23,7 +23,7 @@ app.use(fileUpload());
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
-  password: 'Pl@10021124',
+  password: '',
   database: 'seproject1'
 });
 
